@@ -119,16 +119,16 @@ def func():
             <p>Período: {} </p>
             """.format(data))
         elif pergunta == 2:
-            print("Tchau vadia!")
+            print("Tchau !")
     arquivo.write("""
             <h2>Formações e Cursos </h2> """)
     puta = 1
-    while (puta != 2): 
-            puta = int(input("""
+    while (pergunta2 != 2): 
+            pergunta2 = int(input("""
                     1- Adicionar Cursos 
                     2- Sair
                     """))
-            if puta ==1:
+            if pergunta2 ==1:
                 instituicao = (input("Digite o nome da instituição: \n"))
                 arquivo.write("""                                       
             <h3>Instituição: {} </h3> 
@@ -141,8 +141,8 @@ def func():
                 arquivo.write("""                 
             <p>Período: {} </p>
                 """.format(datas))
-            elif puta == 2:
-                print("Tchau vadia!")
+            elif pergunta2 == 2:
+                print("Tchau!")
     arquivo.write(""" 
         </div>      
     </body> 
