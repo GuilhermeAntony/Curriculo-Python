@@ -122,7 +122,7 @@ def func():
             print("Tchau !")
     arquivo.write("""
             <h2>Formações e Cursos </h2> """)
-    puta = 1
+    pergunta2 = 1
     while (pergunta2 != 2): 
             pergunta2 = int(input("""
                     1- Adicionar Cursos 
